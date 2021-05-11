@@ -1,4 +1,4 @@
-package com.weymu.ureport;
+package com.weymu;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.LoggerFactory;
