@@ -1,0 +1,16 @@
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为8080
+  port: 6084
+
+# ureport报表 http://localhost:6084/ureport/designer
+ureport:
+  disableDBMetaProvider: true
+  fileStoreDir: /opt/weymu/ureportfiles
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/weymu?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: root
